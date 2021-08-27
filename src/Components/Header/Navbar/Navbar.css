@@ -1,0 +1,35 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+
+}
+.navbarMenu a{
+    display: inline-block;
+    margin: 0 8px;
+    text-decoration: none;
+    color: #565673;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    
+}
+.navbarMenu :hover{
+    color: #5f9ea0;
+}   
+.search form{
+    display: flex;
+    cursor: pointer;
+}
+.searchInput{
+    border: 0;
+    width: 0;
+  
+}
+
+.searchInputOpen{
+    border: 0;
+    width: 180px;
+    outline: none;
+    transition: width 0.2s ease-in;
+}

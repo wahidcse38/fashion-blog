@@ -1,0 +1,19 @@
+.card{
+    background-color: white;
+  
+
+}
+
+.logo{
+    text-align: center;
+    padding: 50px 0;
+}
+
+.logo a{
+    font-family: 'Dancing Script', cursive;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 50px;
+    color: #333;
+    text-transform: uppercase;
+}
