@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { NavLink } from 'react-router-dom';
 import './Navbar.css'
 
 class Navbar extends Component {
@@ -9,7 +10,7 @@ class Navbar extends Component {
 
     isOpenHandler = () => {
         this.setState({
-            isOpenSearch: true
+            isOpenSearch: !this.state.isOpenSearch
         })
     }
 
@@ -25,7 +26,7 @@ class Navbar extends Component {
                 <nav className="navbarMenu">
                     <a href="#">Category</a>
                     <a href="#">Features</a>
-                    <a href="#">Post</a>
+                    <NavLink to="/post">Post</NavLink>
                     <a href="#">Learn Blogging</a>
                     <a href="#">Popular Post</a>
                 </nav>

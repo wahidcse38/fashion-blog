@@ -1,0 +1,48 @@
+/* .sidebarHeader{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 18px;
+    letter-spacing: 1px;
+    padding: 10px 0;
+    color: #565673;
+} */
+
+/* .sidebar{
+    width: 28%;
+    border: 1px solid;
+    border-radius: 5px;  
+} */
+
+.cardTitle{
+    text-transform: uppercase;
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: #565673;
+    padding: 15px 0;
+}
+.cardText{
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: #565673;
+    padding: 5px 0;
+   
+}
+
+.cardImg{
+    width: 100%;
+    padding: 5px 10px;
+    box-sizing: border-box;
+}
+.cardFooter{
+    padding: 5px 0;
+    box-sizing: border-box;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.cardLink{
+    text-decoration: none;
+    border: 1px solid;
+    border-radius: 3px;
+    color: #565673;
+}
